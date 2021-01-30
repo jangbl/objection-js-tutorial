@@ -8,7 +8,7 @@ It also demonstrates how to create the database schema and how to create seed da
 
 This repository is contains the code for the [Objection.js tutorial on Youtube](https://www.youtube.com/watch?v=wfrn21E2NaU)
 
-[![Objection.js tutorial](images/node-knex-js-tutorial.png)](https://www.youtube.com/watch?v=wfrn21E2NaU)
+[![Objection.js tutorial](images/objection-js-postgres-tutorial.png)](https://www.youtube.com/watch?v=wfrn21E2NaU)
 
 Please also check out my website at [jangoebel.com](https://jangoebel.com)
 
@@ -56,7 +56,7 @@ You can run
 whoami
 ```
 
-on any Unix-like operating system to find out your user
+on any `Unix-like` operating system to find out your user
 
 Then you can create a new database with:
 
