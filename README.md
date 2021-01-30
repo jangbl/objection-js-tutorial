@@ -30,7 +30,8 @@ and start it with
 brew services start postgres
 ```
 
-You can stop [Postgres](https://www.postgresql.org) with
+You can stop [Postgres](https://www.postgresql.org) with:
+
 ```
 brew services stop postgres
 ```
@@ -40,9 +41,9 @@ For other operating systems, please check the [Postgres website](https://www.pos
 ### Database setup
 
 Make sure to update the configuration app with your database credentials in the `../db/knexfile.js` file.
-There you need to specify the `user`, `password` (per default no password required) and the `database` you want to connect to.
+There you need to specify the `user`, `password` (per default no `password` required) and the `database` you want to connect to.
 
-The default database we try to connect to is called `objection_tutorial`. Please make sure it exists in your local Postgres instance. You can either use a UI like [PgAdmin](https://www.pgadmin.org) to create the database or you can do so with `psql`
+The default database we try to connect to is called `objection_tutorial`. Please make sure it exists in your local [Postgres](https://www.postgresql.org) instance. You can either use a UI like [PgAdmin](https://www.pgadmin.org) to create the database or you can do so with `psql`
 
 ```
 psql -h localhost -U <your-username> postgres
@@ -65,7 +66,7 @@ create database objection_tutorial;
 
 ## Running the application
 
-Once you have installed Postgres and updated the credentials in the `./db/knexfile.js`, you can
+Once you have installed [Postgres](https://www.postgresql.org) and updated the credentials in the `./db/knexfile.js`, you can
 
 ```
 npm run dev
@@ -75,7 +76,7 @@ This will:
 
 1. execute all existing database migrations located in `./db/migrations`
 2. execute all seed files located in `./db/seed` so you have some initial data
-3. start your server on port 8080 with nodemon to provide hot reload functionality
+3. start your server on port `8080` with `nodemon` to provide hot reload functionality
 
 # Additional Scripts
 
