@@ -58,17 +58,22 @@ Then you can create a new database with:
 create database objection_tutorial;
 ```
 
-## Execute database migration
+## Running the application
 
-Once you have installed Postgres and updated the credentials in the `./db/knexfile.js`, you can run the initial migration
-to create the database schema with.
-
-```
-npm run migrate
-```
-
-## Starting the application
+Once you have installed Postgres and updated the credentials in the `./db/knexfile.js`, you can
 
 ```
 npm run dev
 ```
+
+This will:
+
+1. execute all existing database migrations located in `./db/migrations`
+2. execute all seed files located in `./db/seed` so you have some initial data
+3. start your server on port 8080 with nodemon to provide hot reload functionality
+
+# Additional Scripts
+
+- `npm run down`: undo last migration. Since we only have one migration at the moment this is equivalent to deleting all tables
+- `npm run migrate`: executes all migrations in `./db/migrations`
+- `npm run make-seed`: create a new seed file

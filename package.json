@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm run migrate && npm run seed & nodemon index.js",
     "seed": "npx knex seed:run --knexfile=./db/knexfile.js",
-    "make-seed": "npx knex seed:make initial --knexfile ./db/knexfile.js",
+    "make-seed": "npx knex seed:make new-seed --knexfile ./db/knexfile.js",
     "migrate": "npx knex migrate:latest --knexfile ./db/knexfile.js",
     "down": "npx knex migrate:down --knexfile ./db/knexfile.js",
     "test": "echo \"Error: no test specified\" && exit 1"
