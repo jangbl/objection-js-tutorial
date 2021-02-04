@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "make-migration": "npx knex migrate:make init --migrations-directory db/migrations",
     "dev": "npm run migrate && npm run seed & nodemon index.js",
     "seed": "npx knex seed:run --knexfile=./db/knexfile.js",
     "make-seed": "npx knex seed:make new-seed --knexfile ./db/knexfile.js",

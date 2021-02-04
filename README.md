@@ -6,9 +6,9 @@ It also demonstrates how to create the database schema and how to create seed da
 
 <h3 align="center">Please help this repo with a ⭐️ if you find it useful! 😁</h3>
 
-This repository is contains the code for the [Objection.js tutorial on Youtube](https://www.youtube.com/watch?v=wfrn21E2NaU)
+This repository is contains the code for the [Objection.js tutorial on Youtube](https://www.youtube.com/watch?v=zbIl2kuP7tE)
 
-[![Objection.js tutorial](images/objection-js-postgres-tutorial.png)](https://www.youtube.com/watch?v=wfrn21E2NaU)
+[![Objection.js tutorial](images/objection-js-postgres-tutorial.png)](https://www.youtube.com/watch?v=zbIl2kuP7tE)
 
 Please also check out my website at [jangoebel.com](https://jangoebel.com)
 
